@@ -1,0 +1,44 @@
+<%- include("partials/header") -%>
+        </section>
+    </head>
+    <body>
+        <h1 class="forms">User Details</h1>
+        
+            <form class="forms" action="/payment" method="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        
+                        <label for="Fname">First Name</label>
+                        <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Enter First Name">
+                        
+                    </div>
+                    <div class="col-md-6 form-group">
+                        
+                            <label for="Lname">Last Name</label>
+                            <input type="text" name="Lname" class="form-control" id="Lname" placeholder="Enter Last Name">
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="Phone">Contact No.</label>
+                    <input type="tel" id="Phone" name="nom" class="form-control" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                </div>
+                <div class="form-group">
+                  <label for="InputEmail">Email address</label>
+                  <input type="email" name="eml" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                
+                
+                <button type="submit" class="btn btn-primary">Proceed to checkout</button>
+                <input type="hidden" name="duration" value="<%= chosenPlan%>">
+                <input type="hidden" name="plan" value="<%= planType%>">
+            </div>
+              </form>
+        
+        
+    </body>
+<%- include("partials/footer") -%>

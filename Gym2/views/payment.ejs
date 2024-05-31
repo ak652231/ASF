@@ -1,0 +1,13 @@
+<%- include("partials/header") -%>
+
+<div class="pay">
+<script src="https://www.paypal.com/sdk/js?client-id=BAAtnh_8ST6TpDHLCQOREp0X3ATeNN9qNS_ex-SW-kZ5LPptQVEJeVx0Ap9QmtiSKDnvi5feOiVteHBhtY&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<div id="paypal-container-XN493K7HXPKY4"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "XN493K7HXPKY4",
+  }).render("#paypal-container-XN493K7HXPKY4")
+</script>
+</div>
+
+<%- include("partials/footer") -%>

@@ -1,0 +1,334 @@
+<%- include("partials/header") -%>
+<div class="video-placeholder"></div> 
+        <video class="myVideo" autoplay muted loop id="myVideo">
+            <source src="/css/backvid.mp4" type="video/mp4">
+        </video>
+        <div class="header-container">
+            <h1>Begin Your <br>Fitness Journey with </h1>
+            <h1 class="star">"All Star Fitness"</h1>
+            <button type="button" class="btn btn-light btn-lg" id="scrollToPricing"><i class="fa-solid fa-dumbbell"></i> Get Membership</button>
+        </div>
+        
+        
+</section>
+</head>
+
+<body>
+    <section id="benefits">
+      
+        <h1>Benefits of Membership?</h1>
+        <div class="ben">
+          <div class="">
+            <img class="trainer" src="\css\trainer.png" alt="">
+            
+            <p class="back">Our trainers will make a plan that precisely match your unique goals and aspirations. Whether you're aiming to build strength, improve flexibility, or enhance overall fitness, our trainers will guide you every step of the way.Start your journey with our trainers</p>
+          </div>
+          <div class="benn">
+            <img class="supplements" src="\css\3_2+Aspect+Ratio+1500x1000-removebg-preview.png" alt="">
+            
+            <p class="back">Gym members often receive exclusive discounts on a wide range of supplements offered by the gym or its affiliated partners. These discounts can vary but are typically more favorable than regular retail prices, allowing members to save money on their supplement purchases.</p>
+          </div>
+        </div>
+        
+      </section>
+    <section id="Timing">
+        
+        <div class="row container mx-auto text-center">
+            <div class="col-lg-6 " >
+                <h1>Opening Hours</h1>
+                <div class="colour">
+                  <p class="time">Our gym is open 7 days a week to accommodate your busy schedule. Whether you're an early bird or a night owl, we're here to help you achieve your fitness goals at your convenience.</p>
+                  <p class="time">Below are our regular opening hours:</p>
+                  <ul class="time">
+                    <li><strong>Monday - Friday:</strong> 6:00 AM - 10:00 PM</li>
+                    <li><strong>Saturday - Sunday:</strong> 8:00 AM - 8:00 PM</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <h1>Location</h1>
+                <div id="iframe-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15089.810832668096!2d72.8217729!3d18.999763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf4528752797%3A0xcf1dff0c3990e0a2!2sAll%20Star%20Fitness!5e0!3m2!1sen!2sin!4v1710629059322!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="pricing">
+        
+        <div class="pricing1 py-5 bg-light">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                  <h1 class="mt-3 font-weight-medium mb-1">Membership Fees</h1>
+                  <h6 class="subtitle">We offer 100% best prices</h6>
+                  <h3 class="mt-3 font-weight-medium mb-1  ">GYM</h3>
+                </div>
+              </div>
+              <!-- Row  -->
+              <div class="row mt-5">
+                <!-- Column -->
+                <div class="col-lg-3 col-md-6 col-xs-6">
+                  <div class="card text-center card-shadow on-hover border-0 mb-4">
+                    <div class="card-body font-14">
+                      <h5 class="mt-3 mb-1 font-weight-medium">MONTHLY</h5>
+                      <h6 class="subtitle font-weight-normal">For Beginner</h6>
+                      <div class="pricing my-3">
+                        <sup>₹</sup>
+                        <span class="monthly display-5">1000</span>
+                        <small class="monthly">/mo</small>
+                        
+                      </div>
+                      
+                      <div class="bottom-btn">
+                        <!-- For Monthly Plan -->
+                        <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=1&type=gym"><span>Choose Plan</span></a>
+                      
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column -->
+                <div class="col-lg-3 col-md-6">
+                  <div class="card text-center card-shadow on-hover border-0 mb-4">
+                    <div class="card-body font-14">
+                      <span class="badge badge-inverse p-2 position-absolute price-badge font-weight-normal">Popular</span>
+                      <h5 class="mt-3 mb-1 font-weight-medium">QUARTERLY</h5>
+                      <h6 class="subtitle font-weight-normal">For Beginner</h6>
+                      <div class="pricing my-3">
+                        <sup>₹</sup>
+                        <span class="monthly display-5">2200</span>
+                        
+                        <small class="monthly">/3mo</small>
+                        
+                        
+                      </div>
+                      
+                      <div class="bottom-btn">
+                        <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=3&type=gym"><span>Choose Plan</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column -->
+                <div class="col-lg-3 col-md-6">
+                  <div class="card text-center card-shadow on-hover border-0 mb-4">
+                    <div class="card-body font-14">
+                      <h5 class="mt-3 mb-1 font-weight-medium">SEMI-YEARLY</h5>
+                      <h6 class="subtitle font-weight-normal">For Experienced</h6>
+                      <div class="pricing my-3">
+                        <sup>₹</sup>
+                        <span class="monthly display-5">3500</span>
+                        
+                        <small class="monthly">/6mo</small>
+                        
+                        
+                      </div>
+                      
+                      <div class="bottom-btn">
+                        <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=6&type=gym"><span>Choose Plan</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column -->
+                <div class="col-lg-3 col-md-6">
+                  <div class="card text-center card-shadow on-hover border-0 mb-4">
+                    <div class="card-body font-14">
+                      <h5 class="mt-3 mb-1 font-weight-medium">YEARLY</h5>
+                      <h6 class="subtitle font-weight-normal">For Experienced</h6>
+                      <div class="pricing my-3">
+                        <sup>₹</sup>
+                        <span class="monthly display-5">6000</span>
+                        
+                        <small class="monthly">/yr</small>
+                        
+                        
+                      </div>
+                      
+                      <div class="bottom-btn">
+                        <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=12&type=gym"><span>Choose Plan</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pricing1 py-5 bg-light">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                      <h3 class="mt-3 font-weight-medium mb-1">CARDIO</h3>
+                    </div>
+                  </div>
+                  <!-- Row  -->
+                  <div class="row mt-5">
+                    <!-- Column -->
+                    <div class="col-lg-3 col-md-6 col-xs-6">
+                      <div class="card text-center card-shadow on-hover border-0 mb-4">
+                        <div class="card-body font-14">
+                          <h5 class="mt-3 mb-1 font-weight-medium">MONTHLY</h5>
+                          <h6 class="subtitle font-weight-normal">For Beginner</h6>
+                          <div class="pricing my-3">
+                            <sup>₹</sup>
+                            <span class="monthly display-5">1500</span>
+                            <small class="monthly">/mo</small>
+                            
+                          </div>
+                          
+                          <div class="bottom-btn">
+                            <!-- For Monthly Plan -->
+                            <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=1&type=cardio"><span>Choose Plan</span></a>
+                          
+    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card text-center card-shadow on-hover border-0 mb-4">
+                        <div class="card-body font-14">
+                          <span class="badge badge-inverse p-2 position-absolute price-badge font-weight-normal">Popular</span>
+                          <h5 class="mt-3 mb-1 font-weight-medium">QUARTERLY</h5>
+                          <h6 class="subtitle font-weight-normal">For Beginner</h6>
+                          <div class="pricing my-3">
+                            <sup>₹</sup>
+                            <span class="monthly display-5">3300</span>
+                            
+                            <small class="monthly">/3mo</small>
+                            
+                            
+                          </div>
+                          
+                          <div class="bottom-btn">
+                            <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=3&type=cardio"><span>Choose Plan</span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card text-center card-shadow on-hover border-0 mb-4">
+                        <div class="card-body font-14">
+                          <h5 class="mt-3 mb-1 font-weight-medium">SEMI-YEARLY</h5>
+                          <h6 class="subtitle font-weight-normal">For Experienced</h6>
+                          <div class="pricing my-3">
+                            <sup>₹</sup>
+                            <span class="monthly display-5">6000</span>
+                            
+                            <small class="monthly">/6mo</small>
+                            
+                            
+                          </div>
+                          
+                          <div class="bottom-btn">
+                            <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=6&type=cardio"><span>Choose Plan</span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card text-center card-shadow on-hover border-0 mb-4">
+                        <div class="card-body font-14">
+                          <h5 class="mt-3 mb-1 font-weight-medium">YEARLY</h5>
+                          <h6 class="subtitle font-weight-normal">For Experienced</h6>
+                          <div class="pricing my-3">
+                            <sup>₹</sup>
+                            <span class="monthly display-5">9000</span>
+                            
+                            <small class="monthly">/yr</small>
+                            
+                            
+                          </div>
+                          
+                          <div class="bottom-btn">
+                            <a class="btn btn-success-gradiant btn-md text-white btn-block" href="/user_details?plan=12&type=cardio"><span>Choose Plan</span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </section>
+    <section id="Machines">
+      <h1>Machines & Equipments</h1>
+      
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card body-top">
+            <img class="card-img-top" src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?cs=srgb&dl=pexels-william-choquette-1954524.jpg&fm=jpg" alt="Card image cap">
+            <div class="card-body ">
+              <h5 class="card-title top">Cardio</h5>
+              <p class="card-text "><ul class="body-upper">
+                <li>Treadmills</li>
+                <li>Stationary bikes</li>
+                <li>Rowing machines</li>
+              </ul></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="card body-top">
+            <img class="card-img-top" src="https://media.istockphoto.com/id/625739874/photo/heavy-weight-exercise.jpg?s=612x612&w=0&k=20&c=B1uzJW1DBei2Rx5hnt139tt9dt3L7TbKrpgwbMR-LrI=" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title top">Free Weights</h5>
+              <p class="card-text "><ul class="body-upper">
+                <li>Dumbbells</li>
+                <li>Barbells</li>
+                <li>Kettlebells</li>
+              </ul></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card body-bot">
+            <img class="card-img-top" src="https://www.power-systems.com/shop/Images/landingpages/Strength/0722_strength_lp_850x450_vr3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title bottom">Strength Training Machines</h5>
+              <p class="card-text "><ul class="body-lower">
+                <li>Chest press machine</li>
+                <li>Shoulder press machine</li>
+                <li>Leg press machine,Leg extension machine,Leg curl machine,Lat pulldown machine</li>
+                <li>Seated row machine</li>
+                <li>Smith machine</li>
+                <li>Cable crossover machine</li>
+              </ul></p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="card body-bot">
+            <img class="card-img-top" src="https://static-01.daraz.com.bd/p/125b8499840d7efbfdfe2c8cef69d445.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title bottom" >Flexibility and Mobility Equipment</h5>
+              <p class="card-text"><ul class="body-lower">
+                <li>Stretching mats</li>
+                <li>Yoga blocks and straps</li>
+                <li>Foam rollers</li>
+              </ul></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+  </section>
+  <script>
+    document.getElementById('scrollToPricing').addEventListener('click', function() {
+        document.querySelector('#pricing').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+</script>
+    <%- include("partials/footer") -%>
+    
